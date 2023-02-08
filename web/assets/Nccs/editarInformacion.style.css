@@ -1,0 +1,57 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 26 may. de 2022, 12:17:07
+    Author     : yosoy
+*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.logoPet4Us{
+   width: 60px;
+    height: 70px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    border: solid 2px aqua;
+    
+}
+.buscar{
+    width: 160px;
+    height: 30px;
+    
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    border: solid 2px aqua;
+    
+}
+.espacioCambioinformacion{
+    width: 600px;
+    height: 300px;
+   margin: auto;
+   position: relative;
+   top: 100px;
+    border: solid 2px aqua;
+}
+.espacios{
+    
+    width: 100%;
+}
+.guardar{
+    width: 150px;
+    height: 50px;
+    position: relative;
+    left: 1100px;
+    top: 200px;
+}
+.btnGuardar{
+    width: 100%;
+    height: 100%;
+    
+}

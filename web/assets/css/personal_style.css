@@ -1,0 +1,163 @@
+
+
+.link-list{
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #528ec2;
+    border: 1px solid #337ab7;
+    border-radius: 5px;
+    padding: 5px;
+}
+.link-list:hover{
+    text-decoration: none;
+}
+.add-border-div{
+    border: 10px solid #101066;
+    height: 50px;
+}
+/*
+ Sobreescribo los estilos que me brindo el boostrap en los botones search
+*/
+.add-style-botton-search{
+    border-radius: 50%!important;
+    border: 0px solid #909292!important;
+    background-color: #909292!important;
+    
+}
+.containerNav {
+    font-family: Raleway;
+    margin: 0 auto;
+    padding: 2em 3em;
+    text-align: center;
+    background: #222222;
+}
+
+.containerNav a {
+    color: #FFF;
+    text-decoration: none;
+    font: 20px Raleway;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    cursor: pointer;
+}
+.containerNav {
+    font-family: Raleway;
+    margin: 0 auto;
+    padding: 2em 3em;
+    text-align: center;
+}
+.pullDown a:before {
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    left: 0px;
+    top: 0px;
+    content: '';
+    background-color: #FF8066;
+    opacity: 0.7;
+    transition: all 0.3s;
+}
+div.pullDown a:hover:before
+{
+    height: 40px;
+    
+}
+
+/*estilo de un nav dentro  un container */
+#nav-container{
+    margin-left: 1px;
+    width: 100%;
+}
+
+.padding-right-30px{
+    padding-right: 30px;
+}
+
+/*estilos de la imagen*/
+#img-logo{
+    
+    position: relative;  
+    background-color: whitesmoke;
+    border: 0px solid #30353A;
+    -webkit-border-radius: 50%;
+    margin-left: 50px;
+}
+
+/*altura del logo cuando es pantalla menor a 992px, */
+.h-20px {
+    height: 52px!important;
+}
+
+
+.main{
+        padding-top:  105px;
+   }
+    
+@media (min-width: 992px)
+{
+    #nav-container{
+        margin-left: 20px;
+    }
+    .main{
+        padding-top: 55px;
+        
+    }
+    .input-group .form-control, .input-group-addon, .input-group-btn {
+    display: table-cell;
+    }
+    /*
+    altura del logo cuando es pantalla mayor a 992px, 
+    */
+    .h-lg-30px {
+        height: 50px!important;
+    }
+}
+@media (min-width: 768px){
+   
+    .input-group .form-control, .input-group-addon, .input-group-btn {
+    display: table-cell;
+    width: 100%;
+    }
+}
+
+/*
+    Key frame que animara el logout 
+    after y before
+*/
+
+.example_d {
+    font-family: 'Arial';
+    font: 16px Raleway;
+    color: #ffffff !important;
+    text-transform: uppercase;
+    background: #222222;
+    padding: 14px;
+    padding-top: 3px;
+    border: 5px solid #222222 !important;
+    border-radius: 6px;
+    height: 34px;
+    text-decoration: none;
+    margin-top: 7px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+
+.example_d:hover {
+  color: #ffffff !important;
+  border-radius: 6px;
+  border-color: #bc6351 !important;
+  transition: all 0.6s ease 0s;
+  background: #222222;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}

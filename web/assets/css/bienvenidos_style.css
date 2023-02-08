@@ -1,0 +1,237 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhostSystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 17 jun. de 2022, 17:58:01
+    Author     : yosoy
+*/
+.bienvenidahtml{
+    height: 100px;
+}
+.bodySam{
+   
+    height: 100%;
+    width: 100%;
+    background-color: #FFFFFF;  
+}
+.foto{
+    z-index: 1; /*define el valor de prioridad como en una fila*/
+    height:  300px;
+    width: 300px;
+    
+}
+.espacioTexto{
+    height: 150px;
+}
+.texto{
+    border: 1px black;
+    height: 250px;
+    
+}
+.textTitulo{
+    font-size: 60px;
+    color: #E45163;
+}
+.textParrado{
+    font-size: 20px;
+    
+}
+.espacioRecuadro{
+    height: 100px;
+}
+.recuadro{
+    z-index: 1;
+    position: absolute;
+    height: 440px;
+    background-color:#E45163;  
+}
+.textoRecuadro{
+    border: 1px black;
+    height: 350px;
+     
+}
+.textRecuadroTitulo{
+    font-size: 30px;
+    color: #ffffff;
+}
+.textRecuadroParrado{
+    font-size: 16px;
+    color: #F2F2F2;
+}
+.botonCc{
+    border: 1px black;
+    height: 50px;
+    background-color:#ffffff ; 
+    text-align: center;
+    text-decoration: none;
+}
+.botnCrearCuenta{
+    
+    text-align: center ;
+    color: #E45163;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    top: 30%;
+}
+.textBotonCc{
+    text-decoration: none;
+}
+.botonCc:hover{
+    background-color:#F2F2F2;
+    
+}
+.recudroRosa{
+    height: 150px;
+    width: 650px;
+    background-color:#E45163;
+    position: relative;
+    top:-630px;
+    
+}
+.fotoPerros{
+   z-index: 0;
+   top:-350px;
+   left:-50px;
+}
+.fondoPlomo{
+    width: 100%;
+    height: 1000px;
+    background-color: #D7D7D7;
+}
+.mensajeFrase{
+    z-index: 2;
+    height: 280px;
+    background-color: #ffffff;
+    text-align: center;
+    position: relative;
+    top: 10%;
+}
+.textMensajeFrase{
+    font-size: 25px;
+    color: #E45163;
+    position: relative;
+    top: 20%;
+    
+}
+.perro{
+    z-index: 1;
+    position: relative;
+    top: -100px;
+    background-color: #C9C9C9;
+    height: 430px;
+}
+.fondoRosado{
+    z-index: 0; /*define el valor de prioridad como en una fila*/
+    position: relative;
+    top: -250px;
+    background-color: #E45163;
+    height: 310px;
+}
+.espacioFondoRosado{
+    height: 80%;
+}
+.botonIngre{
+    background-color: #ffffff;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.botnIngresarRosa{
+    text-align: center ;
+    color: #E45163;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    top: 30%;
+}
+.botonIngre:hover{
+    background-color:#F2F2F2;
+}
+.Ventaja{
+    z-index: 2;
+    position: relative;
+    top: -500px;
+    background-color: #ffffff;
+    height: 160px;
+}
+.circuloPlomo{
+    padding: auto;
+    margin: auto;
+    width: 100px;
+     height: 100px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+    background-color: #CCCCCC;
+    margin-top:12%;
+}
+.imgVentaja{
+    position: relative;
+    top: 10%;
+    left: 10%;
+}
+.espVentaja{
+    text-align: center;
+    font-size: 20px;
+}
+.funcionesVentajas{
+        height: 1px;
+        top: 10px;
+    }
+@media (max-width: 1000px){
+    .espacioTexto{
+        height: 20px;
+    }
+    .recudroRosa{
+        top:-1050px;
+        width: 100%;
+        
+    }
+    .espacioRecuadro{
+        height: 20px;
+    }
+    .textoRecuadro{
+        padding: auto;
+        margin: auto;
+    }
+    .fotoPerros{
+        top: -200px;
+        left: -10px;
+    }
+    .recuadro{
+        height: 500px;
+    }
+    .textoRecuadro{
+        height: 400px;
+    }
+    .fondoPlomo{
+        height: 1200px;
+    }
+    .fondoRosado{
+       top: -600px;
+       height: 1050px;
+    }
+    .Ventaja{
+        top: -800px;
+        height: auto;
+    }
+    .mensajeFrase{
+        top: 20px;
+    }
+    .textMensajeFrase{
+        top:7%;
+    }
+    .funcionesVentajas{
+        height: 1px;
+        top: -550px;
+    }
+}
+    @media (max-width: 1000px)and (min-width:500px){
+        .funcionesVentajas{
+            top:-600px
+            
+        }
+}
+

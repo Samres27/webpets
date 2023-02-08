@@ -1,0 +1,111 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 26 may. de 2022, 14:13:35
+    Author     : yosoy
+*/
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.logoPet4Us{
+   width: 60px;
+    height: 70px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    border: solid 2px aqua;
+    
+}
+.buscar{
+    width: 160px;
+    height: 30px;
+    
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    border: solid 2px aqua;
+    
+}
+.espacioUsuarioFoto{
+    width: 200px;
+    height: 200px;
+    
+    margin-left: 10px;
+    margin-top: 10px;
+    border: solid 2px aqua;
+    position: relative;
+    top: 150px;
+    left: 200px;
+}
+.espacioInformacion{
+   width: 400px;
+    height: 200px; 
+    margin-left: 10px;
+    margin-top: 10px;
+    border: solid 2px aqua;
+    position: relative;
+    top: -60px;
+    left: 400px;
+}
+.espUsuario{
+    width: 80%;
+    height: 20px; 
+    border: solid 2px aqua;
+}
+.espNombreApellido{
+    width: 80%;
+    height: 20px; 
+    border: solid 2px aqua;
+    
+}
+.espEdadUsuario{
+    width: 80%;
+    height: 20px; 
+    border: solid 2px aqua;
+    
+}
+.espFechaNacimientoUsuario{
+    width: 80%;
+    height: 20px; 
+    border: solid 2px aqua;
+    
+}
+.espacioMascota{
+   width: 200px;
+    height: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: solid 2px aqua;
+    position: relative;
+    top: -270px;
+    left: 900px;
+    
+}
+.botnEditarInformacion{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: -200px;
+    left: 250px;
+}
+.botnEditarMascota{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: -250px;
+    left: 900px;
+}
+.botnAgregarMascota{
+       width: 200px;
+    height: 40px;
+    position: relative;
+    top: -190px;
+    left: 490px;
+    
+}

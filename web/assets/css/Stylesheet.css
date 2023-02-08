@@ -1,0 +1,160 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 29 may. de 2022, 19:18:36
+    Author     : INTELPC
+*/
+
+/*
+=====
+DEPENDENCES
+=====
+*/
+
+
+.diseño-boton{
+    
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    border-radius: 6%;
+    background-color: #FE7F66;
+    border: 10px none red;
+    height: auto;
+}
+.diseño-boton:hover{
+    color: whitesmoke;
+    background-color: #ff6b51;
+}
+.diseño-bordes{
+    border-radius: 60px;
+    border: none;
+    height: 33px;
+    outline:none;
+    color: black;
+    width: 250px;
+}
+
+@media (max-width: 990px) {
+                
+                #perrito{                  
+                        padding-top: 30px;
+                        padding-left: 30px;
+                        width: 100%;
+                        height: 400px;
+
+                    }
+                    
+                    
+                    
+                    #clase-separacion{
+                        
+                        height: 350px
+                        
+                    }
+                    
+                    #separacion{
+                        height: 20px;
+                    }
+                    
+}
+            
+            
+
+    
+@media (min-width: 991px) and (max-width: 1213px) {
+                
+                #perrito{
+                       padding-top: 50px;
+                       padding-left: 50px;
+                        width: 568px;
+                        height: 630px;
+                    }
+                    
+                   
+                    
+                    #clase-separacion{
+                        height: 600px
+                    }
+                    
+                    #separacion{
+                        height: 266px;
+                    }
+            }
+
+            @media (min-width: 1214px) and (max-width: 1520px){
+                
+                #perrito{
+                    padding-top: 50px;
+                    padding-left: 50px;
+                        width: 700px;
+                        height: 750px;
+                    }
+                #clase-separacion{
+                        height: 600px
+                    }
+                
+                    #separacion{
+                        height: 266px;
+                    }
+                    
+            }
+            
+            @media (min-width: 1521px) and (max-width: 1754px){
+                #fotoperfil{
+                    width: 100%;
+                }
+                
+                #perrito{
+                    padding-top: 105px;
+                    padding-left: 50px;
+                        width: 870px;
+                        height: 750px;
+                        border-bottom-right-radius: 100px;
+                        border-bottom-left-radius: 100px;
+                    }
+                    
+                    #clase-separacion{
+                        padding-right: 1000px;
+                        height: 800px
+                    }   
+                    
+                    #separacion{
+                        height: 266px;
+                    }
+            }
+            
+            @media (min-width: 1755px) and (max-width: 2000px){
+                
+                body{
+                    height: 944px;
+                }
+                
+                #perrito{
+                    width: 972px;
+                    height: 938px;
+                    border-radius: 6%;
+                    }
+                
+                    #clase-separacion{
+                        padding-right: 1000px;
+                        height: 800px
+                    }    
+                    #separacion{
+                        height: 266px;
+                    }
+            }
+
+.diseno-formulario{
+    height: auto ;
+    background: #efdede;
+    color: #E89D8B;
+    border-radius: 6%;    
+}
+
+
+

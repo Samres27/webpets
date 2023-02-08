@@ -1,0 +1,111 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 23 jun. de 2022, 17:32:31
+    Author     : yosoy
+*/
+.bodyInicioSesion{
+    
+    
+    background-color:  #f4f4f4 !important;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color:  #fa8265 ;
+    height: 100%; 
+}
+.fotoEspacioPerrito{
+        height: 630px;
+        
+        position: relative;
+        top: -30px;
+    }
+    #BotonCrearCuenta{
+        
+        position: absolute;
+        top: 400px;
+        left: 300px;
+    }
+
+#perrito {
+        padding-top: 50px;
+        padding-left: 50px;
+        width: 130%;
+        height: 102%;
+        margin: -20px;
+        
+        }
+#separacion{
+            height: 150px;
+        }
+#formularioInicio{
+            background-color:  #fcfbfb;
+            border-radius: 5%;
+}
+#textInFoto{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    margin: 30%;
+    color:#fcfbfb;
+}
+ .diseño-boton{
+    
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    border-radius: 6%;
+    background-color: #FE7F66;
+    border: 10px none red;
+    border-radius: 100px;
+    height: auto;
+}
+.diseño-boton:hover{
+    color: whitesmoke;
+    background-color: #ff6b51;
+    }
+    .footer{
+        position: relative !important;
+    }
+    .diseno-formulario{
+    height: auto ;
+    background: #efdede;
+    color: #E89D8B;
+    border-radius: 6%;    
+}
+   @media (max-width: 1000px){
+       .fotoEspacioPerrito{
+           top: 0;
+           left: 0;
+           
+       }
+       #perrito{
+           height: 100%;
+           width: 100%;
+           
+       }
+       #BotonCrearCuenta{
+
+         top: 450px;
+         left: 330px;
+       }
+       #textInFoto{
+           left: 0;
+       }
+           
+
+    }
+    @media (max-width: 420px){
+        #BotonCrearCuenta{
+
+         top: 450px;
+         left: 150px;
+       }
+       #formularioInicio{
+           top: -50px;
+       }
+    }

@@ -1,0 +1,99 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Author     : Daniel
+*/
+            .base-fondo{
+                padding-top: 80px;
+                background-color:  #F2F2F2;
+            }
+            p2{color:#3F83AE;}
+            
+            #ColumnaPrincipal{
+                margin-top: 120px;
+                background-color:white;
+                border-radius: 10px;
+                height: auto;
+                padding-bottom: 20px;
+            }
+            
+            #fotoperfil{
+                width: 80%;
+                border-radius: 50px;
+            }
+            
+            
+            .solicitudes{
+                margin: 10px;
+                
+                height: 120px;
+                border: 3px solid #000;
+                border-radius: 10px;
+            }
+            
+            .col-sm-12{
+                padding-top: 10px;
+                padding-bottom: 5px;
+            }
+            /*Se realiza el coloreado de el boton de publicar*/
+            #boton1{
+                background-color:  #FF8066;
+                  color: white;
+                  border: 2px solid #CC6666;
+                  width: auto;
+            }
+            #boton1:hover{
+                background-color: #FDA66D; 
+                  color: black; 
+                  border: 2px solid #CC6666;
+            }
+            /*Se realiza el coloreado de el boton de publicar*/
+            #boton2{
+                background-color: #FF8066;
+                  color: white;
+                  border: 2px solid #CC6666;
+                  width: auto;
+            }
+            #boton2:hover{
+                background-color: #FDA66D; 
+                  color: black; 
+                  border: 2px solid #CC6666;
+                  
+            }
+            /*Se quita los bordes y el background*/
+            .form-control{
+                border-radius: 5px;
+            }
+            @media (max-width: 767px) {
+                .base-fondo{
+                    padding-top: 120px;
+                }
+                #fotoperfil{
+                    visibility:hidden !important;
+                    display:none !important;
+                }
+                #solicitudes{
+                    padding-bottom: 30px;
+                }
+                .solicitudes{
+                
+                
+                height: 70px;
+                
+                }
+            }
+            @media (min-width: 767px) and (max-width: 1116px){
+                #fotoperfil{
+                    width: 100%;
+                }
+                #boton1{
+                    padding-bottom: 10px;
+                }
+                #boton2{
+                    margin-left: 20px;
+                    margin-top: 0px;
+                    
+                }
+            }
