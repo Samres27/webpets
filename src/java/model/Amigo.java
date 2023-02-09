@@ -3,7 +3,7 @@ package model;
 
 import java.io.Serializable;
 import java.sql.Date;
-
+//ggg
 public class Amigo implements Serializable{
      private int amigo_id;
      private int usuario_id;
